@@ -1,0 +1,17 @@
+version: '3.1'
+services:
+  backend:
+    container_name: 
+    build: 
+      context: .
+    ports:
+      - 8000:8000
+    restart: always
+
+  streamlit:
+      container_name: name_name
+      build: 
+        context: /file/path
+      ports:
+      - 8000:8000
+      restart: always  

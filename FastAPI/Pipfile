@@ -1,0 +1,20 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+uvicorn = "*"
+pandas = "*"
+fastapi = "*"
+requests = "*"
+wget = "*"
+pypdf = "*"
+gunicorn = "*"
+openai = "*"
+httpx = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
