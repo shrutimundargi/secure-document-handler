@@ -7,7 +7,11 @@ Secure Document Handler is an integrated solution designed to automate the proce
 
 Data Acquisition and Embedding Generation: Automated pipelines to process documents and generate embeddings using either Nougat or PyPdf processing options. 
 
-Vector Database Operations: Parameterized insertion of records into Pinecone's vector database, with capabilities to create, update, and delete indexes. Secure User Authentication: Streamlined user registration and login process safeguarded by JWT, ensuring that only authenticated users can access protected endpoints. Client-Facing Application: A Streamlit-based interface that offers users the ability to register, login, and query information from preprocessed forms.
+Vector Database Operations: Parameterized insertion of records into Pinecone's vector database, with capabilities to create, update, and delete indexes. 
+
+Secure User Authentication: Streamlined user registration and login process safeguarded by JWT, ensuring that only authenticated users can access protected endpoints. Client-Facing 
+
+Application: A Streamlit-based interface that offers users the ability to register, login, and query information from preprocessed forms.
 
 
 ## Architecture
